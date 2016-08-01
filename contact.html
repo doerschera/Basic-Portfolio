@@ -8,26 +8,26 @@
 
 <body>
 	<header>
+		<div class="top">
 			<h1>Aly Doerscher</h1>
-		<ul>
-			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
+			<ul>
+				<li><a href="index.html">About</a></li>
+				<li id="border"><a href="contact.html">Contact</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+			</ul>
+		</div>
 	</header>
 
 	<div>
-		<section id="form">
+		<section class="main">
 			<h2>Contact</h2>
 			<form action="MAILTO:doerschera@gmail.com" method="post" enctype="text/plain">
-				Name <br>
+				 Name <br>
 				<input type="text" name="fullname" value="John Smith">
-			<br>
-				Email <br>
+				<br> Email <br>
 				<input type="text" name="mail" value="example@gmail.com">
-			<br>
-				Message <br>
-				<input type="text" name="content">
+				<br> Message <br>
+				<input class="message" type="text" name="content" size="500">
 			<br><br>
 				<input type="submit" name="submit" value="Submit">				
 			</form>
@@ -37,24 +37,25 @@
 		<section class="connect">
 			<h3>Connect with Me</h3>
 			<ul>
-				<li>
+				<li class="logo">
 					<a href="https://www.github.com/doerscher">
-						<img src="images/logoGit.png" alt="GitHub">
+						<img class="imgLink" src="images/logoGit.png" alt="GitHub">
 					</a>
 				</li>
-				<li>
+				<li class="logo">
 					<a href="hhttps://www.linkedin.com/in/alyssa-doerscher-90a24510b">
-						<img src="images/logoLI.png" alt="LinkedIn">
+						<img class="imgLink" src="images/logoLI.png" alt="LinkedIn">
 					</a>
 				</li>
-				<li>
+				<li class="logo">
 					<a href="#">
-						<img src="images/logoSO.png" alt="Stack Overflow">
+						<img class="imgLink" src="images/logoSO.png" alt="Stack Overflow">
 					</a>
 				</li>
 			</ul>
 		</section>
 	</div>
+
 	<footer>
 		<h6>© 2016 Aly Doerscher</h6>
 	</footer>
